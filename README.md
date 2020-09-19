@@ -28,3 +28,24 @@
 ### update blogs
 * url_path : /blog/update. only original author can update
 * takes blog_id , user_id , content
+
+### add comment
+* url_path : /comment/add
+* takes comment , user_id , blog_id as inputs
+* Method : "POST"
+
+
+### show
+* url_path : /comment/show
+* Takes blog_id as input
+* Method : "GET"
+
+### sub-comment
+* url_path : /comment/subcomment
+* takes comment_id , user_id , comment as input
+* Method : "POST"
+
+### Delete
+* url_path : /comment/delete
+* takes comment_id and user_id as request
+* Method : "DELETE"
