@@ -6,7 +6,11 @@
 * [Login](#login)
 * [create blog](#create-blog)
 * [show blogs](#show-blogs)
-* [update-blogs](#update-blogs)
+* [update blogs](#update-blogs)
+* [add comment](#add-comment)
+* [show commnet](#show-comment)
+* [sub comment](#sub-comment)
+* [delete](#delete-comment)
 
 
 ### Register service
@@ -35,7 +39,7 @@
 * Method : "POST"
 
 
-### show
+### show comment
 * url_path : /comment/show
 * Takes blog_id as input
 * Method : "GET"
