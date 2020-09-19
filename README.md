@@ -10,7 +10,7 @@
 * [add comment](#add-comment)
 * [show commnet](#show-comment)
 * [sub comment](#sub-comment)
-* [delete](#delete-comment)
+* [Delete](#delete-comment)
 
 
 ### Register service
